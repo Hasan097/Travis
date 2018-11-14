@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package autotestproject;
-
 /**
  *
  * @author Administrator
@@ -17,5 +16,4 @@ public class Hello {
         // TODO code application logic here
         System.out.println("Hello World!");
     }
-    
 }
