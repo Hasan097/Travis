@@ -36,7 +36,7 @@ public class Hello {
         //Predicates
         Predicate<Integer> n1 = i -> (i == 0);
         Predicate<Integer> n2 = i -> (i == 4);
-        Predicate<Integer> n3 = i -> (i == 11);
+        Predicate<Integer> n3 = i -> (i == 11);        
         Predicate<String> str1 = i -> (i == "First");
         Predicate<String> str2 = i -> (i == "Yup");
         Predicate<String> str3 = i -> (i == "MegaL");
@@ -62,16 +62,8 @@ public class Hello {
         int e = linearSearch(beta, n2);
         int f = linearSearch(beta, n3);
         
-        //Printing 
-        for(int i = 0; i < 10; i++)
-            System.out.println(beta.get(i));
-        
-        System.out.println("===========================================================================");
-
-        for(int i = 0; i < alpha.size(); i++)
-            System.out.println(alpha.get(i));
-        
-        System.out.println("Hello World!" + " First's index = " + a + ", Yup's index = " + b + ", Non existing index = " + c);
-        System.out.println("Hello World!" + " 0's index = " + d + ", 4's index = " + e + ", Non existing index = " + f);
+        //Print 
+        System.out.println( "First's index = " + a + ", Yup's index = " + b + ", Non existing index = " + c);
+        System.out.println( "0's index = " + d + ", 4's index = " + e + ", Non existing index = " + f);
     }
 }
