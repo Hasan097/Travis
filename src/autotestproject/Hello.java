@@ -52,14 +52,17 @@ public class Hello {
         alpha.add("Absesce");
         alpha.add("Absesce");
         
+        //Testing String values
         int a = linearSearch(alpha, str1);
         int b = linearSearch(alpha, str2);
         int c = linearSearch(alpha, str3);
         
+        //Testing integer values
         int d = linearSearch(beta, n1);
         int e = linearSearch(beta, n2);
         int f = linearSearch(beta, n3);
         
+        //Printing 
         for(int i = 0; i < 10; i++)
             System.out.println(beta.get(i));
         
